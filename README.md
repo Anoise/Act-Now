@@ -1,7 +1,7 @@
 
-# Act-Now: A Novel Online Forecasting Framework for Large-Scale Streaming Data
+# [Act-Now: A Novel Online Forecasting Framework for Large-Scale Streaming Data](https://arxiv.org/pdf/2412.00108)
 
-The repo is the official implementation for the paper: Act-Now: A Novel Online Forecasting Framework for Large-Scale Streaming Data.
+The repo is the official implementation for the paper: [Act-Now: A Novel Online Forecasting Framework for Large-Scale Streaming Data](https://arxiv.org/pdf/2412.00108).
 
 **We propose a novel online learning framework, Act-Now, to improve the online forecasting on large-scale streaming data.**
 
@@ -136,13 +136,13 @@ The intrinsic feature of Lade lies in its alignment of each component’s output
 
 ## 11. Citations
 
-Daojun Liang, Haixia Zhang, Jing Wang, Dongfeng Yuan and Minggao Zhang, Act-Now: A Novel Online Forecasting Framework for Large-Scale Streaming Data. arXiv preprint arXiv:2412.xxxx (2024).
+Daojun Liang, Haixia Zhang, Jing Wang, Dongfeng Yuan and Minggao Zhang, [Act-Now: A Novel Online Forecasting Framework for Large-Scale Streaming Data](https://arxiv.org/pdf/2412.00108). arXiv preprint arXiv:2412.00108 (2024).
 
 ```
 @article{liang2024actnow,
   title={Act-Now: A Novel Online Forecasting Framework for Large-Scale Streaming Data},
   author={Daojun Liang, Haixia Zhang, Jing Wang, Dongfeng Yuan and Minggao Zhang},
-  journal={arXiv preprint arXiv:2412.xxxx},
+  journal={arXiv preprint arXiv:2412.00108},
   year={2024}
 }
 ```
