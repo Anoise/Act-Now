@@ -26,13 +26,11 @@ Existing online forecasting methods have the following issues:
  The **key innovations** are summarized as:
 - We introduce a Random Subgraph Sampling (RSS) algorithm designed to enable efficient model training. 
 
--  We design a Fast Stream Buffer (FSB) and Slow Stream Buffer (SSB) to update model online. FSB updates the model immediately with the consistent pseudo labels and partial labels to avoid information leakage. SSB updates the model in parallel using complete labels from earlier times. 
+-  A Fast Stream Buffer (FSB) and a Slow Stream Buffer (SSB) are designed to update model online. FSB updates the model immediately with the consistent pseudo labels and partial labels to avoid information leakage. SSB updates the model in parallel using complete labels from earlier times. 
 
-- We propose a Label Decomposition model (Lade) with statistical and normalization flows to address concept drift.
+- A Label Decomposition model (Lade) with statistical and normalization flows is proposed to address concept drift.
 
-- We propose to perform online updates on the validation set to ensure the consistency of model learning on streaming data. 
-
-- DistPred can provide K predicted values of the response variable in a single forward pass, allowing for comprehensive statistical insights and uncertainty quantification.
+- Online updates performed on the validation set is proposed to ensure the consistency of model learning on streaming data.
 
 - Extensive experiments demonstrate that the proposed Act-Now framework performs well on large-scale streaming data, with an average 28.4% and 19.5% performance improvement.
 
