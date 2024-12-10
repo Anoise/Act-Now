@@ -20,7 +20,7 @@ CUDA_VISIBLE_DEVICES=0 python -u main.py \
     --root_path $root_path \
     --n_inner $n \
     --test_bsz $bsz \
-    --data Milano \
+    --data $dataset\
     --seq_len 36 \
     --pred_len $len \
     --itr $itr \

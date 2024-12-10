@@ -13,7 +13,7 @@ for bsz in ${bszs[*]}; do
 for dataset in ${datasets[*]}; do
 for model in ${models[*]}; do
 for len in ${lens[*]}; do
-CUDA_VISIBLE_DEVICES=0 python -u main.py --method $method --root_path $root_path --n_inner $n --test_bsz $bsz --data ETTh2 --features M --seq_len 60 --label_len 0 --pred_len $len --des 'Exp' --itr $itr --train_epochs 10 --learning_rate 1e-3 --online_learning 'full' --model $model >'Results/'$dataset'_'$method'_'$model'_'$len.log
+CUDA_VISIBLE_DEVICES=0 python -u main.py --method $method --root_path $root_path --n_inner $n --test_bsz $bsz --data $dataset --features M --seq_len 60 --label_len 0 --pred_len $len --des 'Exp' --itr $itr --train_epochs 10 --learning_rate 1e-3 --online_learning 'full' --model $model >'Results/'$dataset'_'$method'_'$model'_'$len.log
 done
 done
 done
