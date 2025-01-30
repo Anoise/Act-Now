@@ -133,7 +133,9 @@ The intrinsic feature of Lade lies in its alignment of each component’s output
 
 
 ## 11. Citations
+Coming Soon!
 
+<!--
 Daojun Liang, Haixia Zhang, Jing Wang, Dongfeng Yuan and Minggao Zhang, [Act-Now: A Novel Online Forecasting Framework for Large-Scale Streaming Data](https://arxiv.org/pdf/2412.00108). arXiv preprint arXiv:2412.00108 (2024).
 
 ```
@@ -144,6 +146,6 @@ Daojun Liang, Haixia Zhang, Jing Wang, Dongfeng Yuan and Minggao Zhang, [Act-Now
   year={2024}
 }
 ```
-<!--
+
 -->
 
